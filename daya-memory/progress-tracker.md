@@ -93,16 +93,28 @@
 
 | Category | Problems Solved | Target | Status |
 |----------|-----------------|--------|--------|
-| Arrays | 2 | 15 | ✅ Started! |
+| Arrays | 6 | 15 | ✅ Started! |
 | Strings | 0 | 10 | ⏳ |
-| Linked Lists | 0 | 10 | ⏳ |
+| Linked Lists | 1 | 10 | ✅ Started! |
 | Stacks | 0 | 8 | ⏳ |
 | Queues | 0 | 5 | ⏳ |
 | HashMaps | 0 | 10 | ⏳ |
 | Trees | 0 | 10 | ⏳ |
 | Graphs | 0 | 10 | ⏳ |
 | DP (Basics) | 0 | 10 | ⏳ |
-| **TOTAL** | **0** | **100+** | 🔴 Please start! |
+| **TOTAL** | **7** | **100+** | 🚀 Good Start! |
+
+## 📜 Solved Problems Log
+
+| Date | Problem | Difficulty | Topic |
+|------|---------|------------|-------|
+| Feb 8 | Two Sum | Easy | Arrays |
+| Feb 8 | Contains Duplicate | Easy | Arrays |
+| Feb 6 | 3Sum Closest | Medium | Arrays |
+| Feb 5 | 3Sum | Medium | Arrays |
+| Feb 4 | Squares of a Sorted Array | Easy | Arrays |
+| Feb 3 | Remove Duplicates from Sorted List | Easy | Linked List |
+| Feb 3 | Two Sum II | Medium | Arrays |
 
 ---
 

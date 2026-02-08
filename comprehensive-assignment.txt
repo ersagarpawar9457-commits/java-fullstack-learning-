@@ -1,0 +1,164 @@
+======================================================================
+OOP (Object-Oriented Programming) Assignment :- 
+Q1. Create a class 'Student' with fields (id, name, marks). Create methods to:
+    - Set details
+    - Display details
+    - Calculate if the student passed (marks >= 40)
+Input: 101, "Aman", 45 
+Output: Student 101: Aman (Pass)
+Explanation:
+    Encapsulation (private fields, public methods)
+    Conditional logic inside method
+
+Q2. Create an abstract class 'Shape' with an abstract method 'area()'. 
+    Create subclasses 'Circle' and 'Rectangle' that implement 'area()'.
+Input: Circle(radius=5), Rectangle(l=4, b=5)
+Output: Circle Area: 78.5, Rectangle Area: 20
+Explanation:
+    Abstraction and Inheritance
+    Method Overriding
+
+Q3. Write a program to demonstrate Method Overloading. Create a class 'Calculator' with 'add()' method:
+    - add(int, int)
+    - add(double, double)
+    - add(int, int, int)
+Input: add(2, 3), add(2.5, 3.5)
+Output: 5, 6.0
+Explanation:
+    Compile-time Polymorphism
+    Same method name, different parameters
+
+Q4. Create an interface 'Vehicle' with methods 'start()' and 'stop()'. 
+    Implement it in class 'Car' and 'Bike'.
+Output: Car starting... Bike stopping...
+Explanation:
+    Interfaces for abstraction
+    Implementing multiple behaviors
+
+Q5. Demonstrate the use of 'super' and 'this' keywords. 
+    Create a Parent class and Child class. Call parent constructor using 'super'.
+Explanation:
+    'this' refers to current object
+    'super' refers to parent class members
+
+======================================================================
+Exception Handling Assignment :- 
+Q1. Write a program to handle ArithmeticException (Division by zero).
+Input: 10 / 0
+Output: Cannot divide by zero!
+Explanation:
+    try-catch block usage
+    Handling runtime exceptions
+
+Q2. Create a custom exception 'InvalidAgeException'. 
+    Throw this exception if age < 18 in a 'checkAge()' method.
+Input: age = 15
+Output: Exception: Age must be 18+
+Explanation:
+    Creating user-defined exceptions (extends Exception)
+    Types of Exceptions (Checked vs Unchecked)
+
+Q3. Write a program demonstrating 'finally' block.
+    Open a scanner, perform an operation, and close scanner in 'finally'.
+Output: Operation done. Scanner closed.
+Explanation:
+    Resource cleanup
+    Finally block execution guarantee
+
+Q4. Demonstrate 'throws' keyword. Create a method that throws IOException.
+    Call this method in main and handle the exception.
+Explanation:
+    Propagating exceptions
+    Checked vs Unchecked exceptions handling
+
+======================================================================
+Multithreading Assignment :- 
+Q1. Create two threads: one printing numbers 1-5, another printing 6-10.
+    Run them concurrently.
+Output: (Mixed output like 1, 6, 2, 7...)
+Explanation:
+    Extending Thread class vs Implementing Runnable
+    start() vs run()
+
+Q2. Write a program to demonstrate thread synchronization. 
+    Create a 'Counter' class with a synchronized 'increment()' method.
+    Two threads increment the same counter 1000 times.
+Output: Final Count: 2000
+Explanation:
+    Race conditions
+    synchronized keyword usage
+
+Q3. Implement a simple Producer-Consumer problem using wait() and notify().
+    One thread adds items to a list, another removes them.
+Explanation:
+    Inter-thread communication
+    Handling shared resources safely
+
+======================================================================
+Collections (Set & Map) Assignment :- 
+Q1. Given a list of names with duplicates, print only unique names.
+Input: ["Rahul", "Amit", "Rahul", "Sneha"]
+Output: ["Rahul", "Amit", "Sneha"]
+Explanation:
+    HashSet behavior (No duplicates)
+    Converting List to Set
+
+Q2. Count the frequency of each character in a string using HashMap.
+Input: "APPLE"
+Output: {A=1, P=2, L=1, E=1}
+Explanation:
+    HashMap<Character, Integer>
+    put(), getOrDefault(), containsKey() logic
+
+Q3. Sort a HashMap by keys (e.g., Student IDs).
+Input: {103="C", 101="A", 102="B"}
+Output: {101="A", 102="B", 103="C"}
+Explanation:
+    TreeMap (Automatic sorting by key)
+    Navigating Maps
+
+Q4. Given two lists, find their intersection (common elements).
+Input: [1, 2, 3], [2, 3, 4]
+Output: [2, 3]
+Explanation:
+    retainAll() method or manual check
+    Set intersection logic
+
+======================================================================
+Frontend (HTML & CSS) Assignment :- 
+Q1. Create a simple 'Contact Us' form with:
+    - Name (Text)
+    - Email (Email)
+    - Message (Textarea)
+    - Submit Button
+    Style it using CSS to center on the page.
+
+Q2. Build a flexbox layout with:
+    - Header (full width)
+    - Sidebar (20% width)
+    - Main Content (80% width)
+    - Footer (full width)
+    Color sections differently.
+
+Q3. Create a responsive grid of cards (e.g., Product Cards).
+    Use CSS Grid: calculate columns automatically based on screen size.
+    (hint: repeat(auto-fit, minmax(...)))
+
+======================================================================
+SQL Basics Assignment :- 
+Q1. Write a SQL query to create a table 'Employee' with fields: id (PK), name, department, salary.
+
+Q2. Write a query to insert 3 sample records into 'Employee'.
+
+Q3. Write a query to fetch all employees from 'IT' department.
+Query: SELECT * FROM Employee WHERE department = 'IT';
+
+Q4. Write a query to find the employee with the highest salary.
+Query: SELECT * FROM Employee ORDER BY salary DESC LIMIT 1;
+(OR using MAX subquery)
+
+Q5. Write a query to update the salary of employee with id=101 to 60000.
+Query: UPDATE Employee SET salary = 60000 WHERE id = 101;
+
+Q6. Write a query to delete employees with salary < 10000.
+Query: DELETE FROM Employee WHERE salary < 10000;

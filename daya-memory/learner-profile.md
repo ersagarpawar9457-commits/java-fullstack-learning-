@@ -7,8 +7,8 @@
 ## Basic Info
 - **Name:** Sagar Pawar
 - **Current Level:** Beginner-Intermediate 🚀 (Core Java done, learning advanced now)
-- **Learning Mode:** Full-time + Offline Classes 📚
-- **Weekly Hours Available:** 18-23 hours (self-study) + class hours
+- **Learning Mode:** Offline Classes (8 AM - 6 PM)
+- **Daily Availability:** 7 PM - 11 PM (Evening) + Weekends (self-study) + class hours
 - **Started Journey:** February 8, 2026
 
 ## Topics Already Completed (In Classes)
