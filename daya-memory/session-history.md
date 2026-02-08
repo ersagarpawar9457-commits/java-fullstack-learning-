@@ -37,6 +37,28 @@
 
 ---
 
+## Session 2 - February 8, 2026 (Part 2)
+### Topic: Persona Update & Study Schedule
+
+### What We Covered
+- **Persona Change:** "Daya" is now **Modi** (8 AM - 6 PM Schedule Focus)
+- **Schedule:** Created realistic evening routine (7-11 PM) in `daya-memory/daily-routine.md`
+- **GitHub:** Initialized repo, pushed all notes/tracker, and synced updates
+- **DSA Progress:** Updated tracker with 5 previously solved problems (Total: 7 solved!)
+- **Assignments:** Created `string-array-assignment.txt` and `comprehensive-assignment.txt`
+
+### Key Takeaways
+- Sagar is attending offline classes 8 AM - 6 PM
+- Needs high-efficiency evening study (Coding > Theory)
+- Solved advanced problems (3Sum) early! 🚀
+
+### Homework/Next Steps
+- [ ] Follow new evening routine tomorrow
+- [ ] Solve 1-2 problems from Assignment file
+- [ ] Push daily code to GitHub
+
+---
+
 ## Template for Future Sessions
 
 ```markdown

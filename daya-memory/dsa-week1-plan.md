@@ -94,14 +94,21 @@
 |---|---------|---------|------|-------|
 | 1 | Two Sum | [x] ✅ | Feb 8 | Completed! |
 | 2 | Contains Duplicate | [x] ✅ | Feb 8 | Completed! |
-| 3 | Valid Palindrome | [ ] | | |
-| 4 | Remove Duplicates | [ ] | | |
+| 3 | Valid Palindrome | [ ] | | User solved "Remove Duplicates List" (Feb 3) instead |
+| 4 | Remove Duplicates | [ ] | | User solved "Squares of Sorted Array" (Feb 4) instead |
 | 5 | Reverse String | [ ] | | |
 | 6 | Valid Anagram | [ ] | | |
 | 7 | First Unique Char | [ ] | | |
 | 8 | Longest Common Prefix | [ ] | | |
 | 9 | Maximum Subarray | [ ] | | |
 | 10 | Merge Sorted Array | [ ] | | |
+
+### 🌟 Bonus / Previously Solved
+- **3Sum** (Medium) - Feb 5
+- **3Sum Closest** (Medium) - Feb 6
+- **Squares of Sorted Array** (Easy) - Feb 4
+- **Remove Duplicates List** (Easy) - Feb 3
+- **Two Sum II** (Medium) - Feb 3
 
 ---
 

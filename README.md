@@ -28,7 +28,7 @@
 
 ## 📊 DSA Progress
 
-- Problems Solved: 2/100+
+- Problems Solved: 7/100+
 - Current Focus: Arrays & Strings
 
 ---
